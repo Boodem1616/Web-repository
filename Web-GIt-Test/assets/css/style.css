@@ -1,0 +1,86 @@
+nav {
+  background-color: #48ff00;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+nav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+nav a:hover {
+  background-color: #ffd1d1;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+nav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+img {
+    width: 250px;
+    height: 100px;
+}
+
+/*Estilos base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /*  */
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+article, aside {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+article {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+aside {
+    background-color: #f4f4f4;
+    border-left: 4px solid #ff2222;
+    border-right: 4px solid #0c10f3;
+}
+
+/*Estilo de Imagenes */
+img {
+    width: 250px;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 10px auto; 
+}
+
+
+/*Clases Reutilizables */
+.color-rojo {
+    color: red;
+    font-weight: bold;
+}
+
+.color-azul {
+    color: blue;
+}
